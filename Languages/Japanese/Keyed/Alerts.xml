@@ -77,6 +77,11 @@
   <AlertUnroofedElectrical>屋根がない電気製品</AlertUnroofedElectrical>
   <AlertUnroofedElectricalDesc>これらの建築物には屋根がなく,雨が降るとショートします.</AlertUnroofedElectricalDesc>
 
+  <AlertUnarmedCombatant>戦闘員が非武装</AlertUnarmedCombatant>
+  <AlertUnarmedCombatantDesc>これらの入植者は戦闘可能ですが非武装です:\n\n{0}</AlertUnarmedCombatantDesc>
+  <AlertChildCombatant>戦闘員に子供を含む</AlertChildCombatant>
+  <AlertChildCombatantDesc>有効にすると,この警告メッセージには非武装の子供も含まれます.</AlertChildCombatantDesc>
+
   <AlertTradeCaravan>トレーダー</AlertTradeCaravan>
   <AlertTradeCaravanDesc>トレーダーが来訪中です.</AlertTradeCaravanDesc>
 
