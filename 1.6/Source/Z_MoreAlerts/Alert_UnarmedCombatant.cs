@@ -16,7 +16,7 @@ namespace Z_MoreAlerts
                 unarmedCombatants.Clear();
                 foreach (Pawn p in PawnsFinder.AllMaps_FreeColonistsSpawned)
                 {
-                    if (p.equipment.Primary == null && !p.WorkTagIsDisabled(WorkTags.Violent))
+                    if (p.equipment.Primary == null && !p.WorkTagIsDisabled(WorkTags.Violent) && !p.Downed && p.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation))
                     {
                         unarmedCombatants.Add(p);
                     }
