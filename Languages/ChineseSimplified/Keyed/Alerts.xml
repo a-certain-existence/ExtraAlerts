@@ -11,13 +11,16 @@
 
   <AlertHiddenEnemies>隐蔽的敌人</AlertHiddenEnemies>
   <AlertHiddenEnemiesDesc>地图上有{0}名隐藏中的敌人:\n\n{1}</AlertHiddenEnemiesDesc>
-  <AlertHiddenEnemiesLabel>显示隐藏中的敌人，包括战争迷雾中，以及有隐形等手段透明化的敌人。</AlertHiddenEnemiesLabel>
+  <AlertHiddenEnemiesLabel>显示隐藏中的敌人，包括战争迷雾中、以及有隐形等手段透明化的敌人。</AlertHiddenEnemiesLabel>
 
   <AlertEnemyNeedsRescue>敌人倒地</AlertEnemyNeedsRescue>
-  <AlertEnemyNeedsRescueDesc>这些都是被击败可"腐乳"的敌人。 你可以让他们成为囚犯、脱掉他们的衣服或 者处决他们：\n\n{0}</AlertEnemyNeedsRescueDesc>
+  <AlertEnemyNeedsRescueDesc>这些都是被击败可"腐乳"的敌人。 你可以让捕捉他们为囚犯、趁机洗劫装备、或者将其无害化：\n\n{0}</AlertEnemyNeedsRescueDesc>
   
+  <AlertEntityDowned>实体倒地</AlertEntityDowned>
+  <AlertEntityDownedDesc>这些实体已经暂时失去了行动能力。你可以准备进行收容或处理他们：\n\n{0}</AlertEntityDownedDesc>
+
   <AlertAllyNeedsRescue>盟友倒地</AlertAllyNeedsRescue>
-  <AlertAllyNeedsRescueDesc>一个盟友失去了行动能力。你可以放任不管或考虑去救援他们：\n\n{0}</AlertAllyNeedsRescueDesc>
+  <AlertAllyNeedsRescueDesc>这些盟友失去了行动能力。你可以考虑去救援他们：\n\n{0}</AlertAllyNeedsRescueDesc>
   
   <AlertNeutralNeedsRescue>倒地无派别人员</AlertNeutralNeedsRescue>
   <AlertNeutralNeedsRescueDesc>这些人是无派别的没有行动能力者。 你可以考虑救援或捕获他们：\n\n{0}</AlertNeutralNeedsRescueDesc>
@@ -33,22 +36,22 @@
   <AlertNotBondedAnimalMasterDesc>动物并没有被分配给其羁绊的定居者。</AlertNotBondedAnimalMasterDesc>
   
   <AlertDeadMansApparel>死者衣服</AlertDeadMansApparel>
-  <AlertDeadMansApparelDesc>这些定居者穿的是死人的衣服，他们的心情会下降。：\n\n{0}\n请给他们穿上干净的衣服。</AlertDeadMansApparelDesc>
+  <AlertDeadMansApparelDesc>这些定居者穿的是死人的衣服，他们感到不适：\n\n{0}\n请给他们穿上干净的衣服。</AlertDeadMansApparelDesc>
   
   <AlertHumanLeatherApparelSad>人皮衣服</AlertHumanLeatherApparelSad>
-  <AlertHumanLeatherApparelSadDesc>这些殖民者穿着人类皮革服装，他们觉得很不安：\n\n{0}\n可以尝试他们穿上其他材质的衣服。</AlertHumanLeatherApparelSadDesc>
+  <AlertHumanLeatherApparelSadDesc>这些殖民者穿着人类皮革服装，他们感觉很不安：\n\n{0}\n可以尝试他们穿上其他材质的衣服。</AlertHumanLeatherApparelSadDesc>
 
   <AlertWantToSleepWith>异地恋恋人</AlertWantToSleepWith>
-  <AlertWantToSleepWithDesc>这些定居者想和她的恋人在一起。请考虑给他们分配一套住房（双人床）吧。\n\n除了出轨者\n他这个骗子!</AlertWantToSleepWithDesc>
+  <AlertWantToSleepWithDesc>这些定居者想和她的恋人在一起。请考虑给他们分配一套住房（双人床）吧。\n\n除了出轨者——他这个骗子!</AlertWantToSleepWithDesc>
   
   <AlertSharingBedUnhappy>共用床铺</AlertSharingBedUnhappy>
-  <AlertSharingBedUnhappyDesc>这些殖民者不是恋人关系，但是他们共用一张床。 请考虑将他们分配到不同的床上。</AlertSharingBedUnhappyDesc>
+  <AlertSharingBedUnhappyDesc>这些殖民者不是恋人关系，但是他们共用一张床。# 请考虑将他们分配到不同的床上。</AlertSharingBedUnhappyDesc>
   
   <AlertAsceticBedroomQuality>奢华房间的苦行者</AlertAsceticBedroomQuality>
   <AlertAsceticBedroomQualityDesc>具有禁欲主义的定居者抱怨他们的卧室太过豪华。考虑去掉装饰或将其分配到一个更合适的房间。</AlertAsceticBedroomQualityDesc>
   
   <AlertNightOwl>白天的夜猫子</AlertNightOwl>
-  <AlertNightOwlDesc>一只夜猫子被他妈妈安排在白班多痛苦!让他们上夜班吧!</AlertNightOwlDesc>
+  <AlertNightOwlDesc>一只夜猫子被他的超凡智能安排在白班！让他们上夜班吧!</AlertNightOwlDesc>
   
 <!-- 动物 -->
   <ExtraAlerts_Animals>动物</ExtraAlerts_Animals>
@@ -56,26 +59,32 @@
   <AlertAnimalHypothermia>体温过低动物</AlertAnimalHypothermia>
   <AlertAnimalHypothermiaDesc>定居地的这些动物正在遭受低温症的影响。</AlertAnimalHypothermiaDesc>
     
-  <AlertAnimalHeatstroke>中暑动物</AlertAnimalHeatstroke>
+  <AlertAnimalHeatstroke>中暑的动物</AlertAnimalHeatstroke>
   <AlertAnimalHeatstrokeDesc>定居地的这些动物正在遭受中暑的影响。</AlertAnimalHeatstrokeDesc>
   
-  <AlertAnimalGoingWild>缺乏训话</AlertAnimalGoingWild>
+  <AlertAnimalGoingWild>动物野化</AlertAnimalGoingWild>
   <AlertAnimalGoingWildDesc>定居地的这些动物即将变成野生动物。</AlertAnimalGoingWildDesc>
   
-  <AlertHandlerNeeded>需要适当处理</AlertHandlerNeeded>
-  <AlertHandlerNeededDesc>你的一些动物不能被任何殖民者训练。在它们回到野外之前，请考虑将它们宰杀或出售。</AlertHandlerNeededDesc>
+  <AlertHandlerNeeded>无法驯服的动物</AlertHandlerNeeded>
+  <AlertHandlerNeededDesc>你的一些动物不能被当前的任何殖民者训练。\n在它们回到野外之前，请考虑将它们宰杀，出售或者主动放生等手段。</AlertHandlerNeededDesc>
   
 <!-- 杂项 -->
   <ExtraAlerts_Misc>其它</ExtraAlerts_Misc>
   
-  <AlertPausedCaravan>暂停的远行队</AlertPausedCaravan>
-  <AlertPausedCaravanDesc>世界地图上有远行队停止了行进，正在等待你的指示。</AlertPausedCaravanDesc>
+  <AlertPausedCaravan>远行队待机中</AlertPausedCaravan>
+  <AlertPausedCaravanDesc>世界地图上有远行队未进行移动，正在等待你的指示。</AlertPausedCaravanDesc>
 
   <AlertUnroofedElectrical>无屋顶的电器</AlertUnroofedElectrical>
-  <AlertUnroofedElectricalDesc>这些建筑物没有在屋顶，下雨时就会发生短路；崩！</AlertUnroofedElectricalDesc>
+  <AlertUnroofedElectricalDesc>这些建筑物没有在屋顶，下雨时就会发生短路——崩！</AlertUnroofedElectricalDesc>
+  
+  <AlertUnarmedCombatant>人员未武装</AlertUnarmedCombatant>
+  <AlertUnarmedCombatantDesc>这些殖民者具有战斗能力，但尚未装备武器：\n\n{0}\n\n如果你想关闭这条消息，可以在mod设置页面关闭。（如果你真的不想给“这些人”配备武器）</AlertUnarmedCombatantDesc>
+  <AlertChildCombatant>+包括儿童战斗人员</AlertChildCombatant>
+  <AlertChildCombatantDesc>启用：此警报会将没有装备武器的儿童包含在内。</AlertChildCombatantDesc>
+  
   
   <AlertTradeCaravan>贸易商</AlertTradeCaravan>
-  <AlertTradeCaravanDesc>贸易商经过你的居住地。</AlertTradeCaravanDesc>
+  <AlertTradeCaravanDesc>当前有可以贸易的商人处于你的居住地。</AlertTradeCaravanDesc>
   
   <AlertOrbitalTrader>轨道交易</AlertOrbitalTrader>
   <AlertOrbitalTraderDesc>一个轨道交易商在范围内。</AlertOrbitalTraderDesc>
@@ -83,4 +92,11 @@
   <AlertColonistNeedsRest>殖民者需要休息</AlertColonistNeedsRest>
   <AlertColonistNeedsRestDesc>这些殖民者生病了，需要卧床休息。</AlertColonistNeedsRestDesc>
   
+<!-- Odyssey-->
+ <ExtraAlerts_Odyssey>奥德赛</ExtraAlerts_Odyssey>
+ 
+ <AlertPorcupineQuills>豪猪刺</AlertPorcupineQuills>
+ <AlertPorcupineQuillsDesc>这些殖民者的皮肤上有豪猪刺。直到手术拔除前，豪猪刺会持续产生疼痛：\n\n｛0｝</AlertPorcupineQuillsDesc>
+
+
 </LanguageData>
